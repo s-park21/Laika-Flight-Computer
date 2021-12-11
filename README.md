@@ -2,6 +2,7 @@
 Kicad PCB files for the Liaka flight computer
 
 PCB Ordering Information:
+
 Export the PCB files as Gerber. See online tutorial for details. Upload drill files, gerber files, BOM and .pos file to JLCPCB for PCB manufacture and assembly. 
 JLC can assemble most of the components other than RFM95W, GPS, Baro and various other minor parts. I highly reccomend to have JLC assemble the ESP32 chip for you.
 
