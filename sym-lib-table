@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MS561101BA03-50)(type Legacy)(uri "C:/Users/Angus McLennan/Documents/KiCAD Library/MS561101BA03-50.lib")(options "")(descr ""))
+  (lib (name XT30PW-M)(type Legacy)(uri "C:/Users/Angus McLennan/Documents/KiCAD Library/XT30PW-M.lib")(options "")(descr ""))
+  (lib (name L2_board-rescue)(type Legacy)(uri ${KIPRJMOD}/L2_board-rescue.lib)(options "")(descr ""))
+)
