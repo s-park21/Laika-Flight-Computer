@@ -1,2 +1,0 @@
-0, 1:45, "Number 8 Ash Grove"
-1, 2:10, "Ash Grove Corner"

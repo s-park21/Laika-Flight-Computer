@@ -435,6 +435,10 @@
     [
       "4e039e01-c7b4-4c31-a258-ecc90b9f543a",
       "ESP32"
+    ],
+    [
+      "38f95464-c4fd-44f7-9819-1304e1c28009",
+      "DataLogging"
     ]
   ],
   "text_variables": {}

@@ -1,6 +1,7 @@
 (sym_lib_table
+  (lib (name "M24M02-DR")(type "KiCad")(uri "${KIPRJMOD}/Local Library/M24M02-DR .kicad_sym")(options "")(descr ""))
+  (lib (name "ADXL375BCCZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/Local Library/ADXL375BCCZ-RL7.kicad_sym")(options "")(descr ""))
   (lib (name "LM393DR2G")(type "KiCad")(uri "${KIPRJMOD}/Local Library/LM393DR2G.kicad_sym")(options "")(descr ""))
   (lib (name "MS561101BA03-50")(type "KiCad")(uri "${KIPRJMOD}/Local Library/MS561101BA03-50.kicad_sym")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/Local Library/XT30PW-M.kicad_sym")(options "")(descr ""))
-  (lib (name "ADXL375BCCZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/Local Library/ADXL375BCCZ-RL7.kicad_sym")(options "")(descr ""))
 )
