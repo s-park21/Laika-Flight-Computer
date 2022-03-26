@@ -1,0 +1,55 @@
+Circuit: * C:\Users\thean\OneDrive\Documents\1. Uni Work\HPR\Liaka-Flight-Computer\V3\Simulations\Attempt_t.asc
+
+Error on line 1056 : r:d1:l 0«:1» vp«:9» 1.5e+007 d1:rlmod 
+	 Unknown parameter "d1:rlmod"
+Error on line 1067 : r:d1:bvc d1:10 0«:0» 5600 d1:rbvcmod 
+	 Unknown parameter "d1:rbvcmod"
+Model "m1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "m1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Instance "m:m1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:m1:1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Sat Mar 26 13:45:59 2022
+Total elapsed time: 0.075 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1843
+traniter = 130
+tranpoints = 53
+accept = 44
+rejected = 9
+matrix size = 42
+fillins = 47
+solver = Normal
+Matrix Compiler1: 4.33 KB object code size  0.6/0.3/[0.2]
+Matrix Compiler2: 4.19 KB object code size  0.4/0.4/[0.3]
+
