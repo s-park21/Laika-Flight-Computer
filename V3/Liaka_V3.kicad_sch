@@ -976,9 +976,6 @@
     (path "/c1bf2b0b-bfb8-46f1-8af4-59d66c9f7f58/a757e2b6-3204-45b0-addf-84bbb6f14e24"
       (reference "#PWR0143") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/4e039e01-c7b4-4c31-a258-ecc90b9f543a/b392c915-b843-4114-8bca-8feaa4d154f9"
-      (reference "#PWR0144") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/4e039e01-c7b4-4c31-a258-ecc90b9f543a/96e1c29a-bb3d-4bb1-b9e1-eea6e13bc55b"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
@@ -1042,8 +1039,41 @@
     (path "/38f95464-c4fd-44f7-9819-1304e1c28009/57a50a61-7af2-4a20-a5a7-498dd62aec0f"
       (reference "#PWR0165") (unit 1) (value "VDD") (footprint "")
     )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/0ee362d6-46b8-4315-b742-5f777d4f9d69"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/3a0ae96c-df09-4372-b20d-54fddebbdf39"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/3d91e159-b28f-4016-b781-d485dbd0a7a5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/38f95464-c4fd-44f7-9819-1304e1c28009/7a3f2940-fd05-4d41-b9ab-c07f20373bc2"
       (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/4e039e01-c7b4-4c31-a258-ecc90b9f543a/8eb0c378-a7a0-4daf-9884-38b7df9ef39e"
+      (reference "#PWR?") (unit 1) (value "VCCQ") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/9bad0a20-db36-47c8-bdea-88fb0a81427d"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/b1963135-4b74-43e8-9957-bccbc74407af"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/ba02f3db-57f7-4799-9ce3-03986dd885d6"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/bc747cd9-2c14-4e8d-af52-0eda425fcd05"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/eaec798d-40db-4341-9583-cf6858586b18/d6566905-d8ec-4d01-a34b-3462698a9e6e"
+      (reference "#PWR?") (unit 1) (value "VCCQ") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/d94447f3-8959-48a5-a128-14cd1a440e04"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/fd12b8c9-dd4d-4ed5-a4bc-fcdc589f0573"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/91408aa9-edaa-48a7-a372-463a382e0fea"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1092,6 +1122,18 @@
     )
     (path "/38f95464-c4fd-44f7-9819-1304e1c28009/0fcf711e-eb35-47e4-bfa6-e2ce17515c93"
       (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/024aec87-418d-43e2-982b-d40b3ec576b4"
+      (reference "C?") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/8d53e9c9-18a3-4109-aa53-d44adf9141cf"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/d92e57a2-5431-49a8-b156-075b98e57e52"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/db88ec96-ede5-4e8a-8ed4-226875331dce"
+      (reference "C?") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/f55d70bd-74a8-40c2-ac8e-83281e7d1267"
       (reference "D1") (unit 1) (value "LED_BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1269,6 +1311,9 @@
     )
     (path "/4e039e01-c7b4-4c31-a258-ecc90b9f543a/8c99e267-0c98-45f2-9d7a-bebab0cd0402"
       (reference "U9") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
+    )
+    (path "/035fef5e-61bd-47f2-9a8c-6b6e07e25123/9f3fe97e-1e9e-485d-9bc4-cdfd2b3b791e"
+      (reference "U?") (unit 1) (value "MPU-6050") (footprint "Local_footprints:MPU-6050")
     )
   )
 )
