@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SMT-1127-S-R
+#
+DEF SMT-1127-S-R LS 0 40 N N 1 L N
+F0 "LS" -50 250 50 H V L BNN
+F1 "SMT-1127-S-R" -50 -325 50 H V L BNN
+F2 "XDCR_SMT-1127-S-R" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "2014/08/05" 0 0 50 H I L BNN "PARTREV"
+F6 "Pui Audio" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "2.7 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+P 2 0 0 10 -125 75 -125 -75 N
+P 2 0 0 10 -125 -75 -100 -75 N
+P 2 0 0 10 0 -75 0 75 N
+P 2 0 0 10 -125 75 -100 75 N
+P 2 0 0 10 0 -75 100 -200 N
+P 2 0 0 10 100 -200 100 200 N
+P 2 0 0 10 0 75 100 200 N
+P 2 0 0 6 -100 -100 -100 -75 N
+P 2 0 0 10 -100 -75 0 -75 N
+P 2 0 0 6 -100 100 -100 75 N
+P 2 0 0 10 -100 75 0 75 N
+T 0 -200 100 70 0 0 0 + Normal 0 L B
+T 0 -200 -200 70 0 0 0 - Normal 0 L B
+X ~ N -100 -200 100 U 40 40 0 0 P 
+X ~ P -100 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
