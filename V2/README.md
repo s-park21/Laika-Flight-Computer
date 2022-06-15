@@ -1,4 +1,4 @@
-# Liaka-Flight-Computer
+# Laika-Flight-Computer
 Kicad PCB files for the Liaka flight computer
 
 PCB Ordering Information:
