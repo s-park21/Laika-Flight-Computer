@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.9,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 0.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -63,8 +63,8 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "copper_edge_clearance": "warning",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -75,9 +75,9 @@
         "hole_near_hole": "error",
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "warning",
         "length_out_of_range": "error",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -379,10 +379,37 @@
         "microvia_diameter": 0.55,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "+5V",
+          "+BATT",
+          "GND",
+          "VCC",
+          "VDC",
+          "VDD"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.55,
+        "microvia_drill": 0.1,
+        "name": "RF",
+        "nets": [
+          "Net-(J1-Pad1)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
         "via_diameter": 0.8,
         "via_drill": 0.45,
         "wire_width": 6.0

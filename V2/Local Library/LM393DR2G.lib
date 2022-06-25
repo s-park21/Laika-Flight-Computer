@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# On Semiconductor LM393DR2G
+#
+DEF LM393DR2G U 0 40 Y Y 2 L N
+F0 "U" 0 300 50 H V L CNN 
+F1 "LM393DR2G" 0 400 50 H V L CNN 
+F2 "On_Semiconductor-LM393DR2G-*" 0 500 50 H I L CNN 
+F3 "http://www.onsemi.com/pub_link/Collateral/LM393-D.PDF" 0 600 50 H I L CNN 
+F4 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F5 "http://www.onsemi.com/" 0 800 50 H I L CNN "Component Link 1 URL"
+F6 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F7 "http://www.onsemi.com/pub_link/Collateral/751-07.PDF" 0 1000 50 H I L CNN "Component Link 3 URL"
+F8 "Rev. 25" 0 1100 50 H I L CNN "Datasheet Version"
+F9 "0.4" 0 1200 50 H I L CNN "ICC Typ mA"
+F10 "16" 0 1300 50 H I L CNN "IO Typ mA"
+F11 "Surface Mount" 0 1400 50 H I L CNN "Mounting Technology"
+F12 "8-Pin Small Outline Integrated Circuit, Body 4.9 x 3.9 mm, Pitch 1.27 mm" 0 1500 50 H I L CNN "Package Description"
+F13 "Rev. AK, 02/2011" 0 1600 50 H I L CNN "Package Version"
+F14 "Tape and Reel" 0 1700 50 H I L CNN "Packing"
+F15 "36" 0 1800 50 H I L CNN "VCC Max V"
+F16 "2" 0 1900 50 H I L CNN "VCC Min V"
+F17 "IC" 0 2000 50 H I L CNN "category"
+F18 "1152811" 0 2100 50 H I L CNN "ciiva ids"
+F19 "9b3eb8257f2b076b" 0 2200 50 H I L CNN "library id"
+F20 "On Semiconductor" 0 2300 50 H I L CNN "manufacturer"
+F21 "SOIC-8-751-07" 0 2400 50 H I L CNN "package"
+F22 "1415370445" 0 2500 50 H I L CNN "release date"
+F23 "Yes" 0 2600 50 H I L CNN "rohs"
+F24 "525DEFFD-7DAF-4860-9A23-18011E57D5EA" 0 2700 50 H I L CNN "vault revision"
+F25 "yes" 0 2800 50 H I L CNN "imported"
+DRAW
+X OUTA 1 700 -100 100 L 40 0 1 1 C 
+X INA- 2 100 0 100 R 40 0 1 1 I 
+X INA+ 3 100 -200 100 R 40 0 1 1 I 
+X GND 4 400 -400 100 U 40 0 1 1 W 
+X VCC 8 400 200 100 D 40 0 1 1 W 
+P 2 1 1 0 200 100 600 -100 N
+P 2 1 1 0 200 -300 600 -100 N
+P 2 1 1 0 200 100 200 -300 N
+P 2 1 1 0 240 0 300 0 N
+P 2 1 1 0 240 -200 300 -200 N
+P 2 1 1 0 270 -170 270 -230 N
+P 2 1 1 0 400 100 400 0 N
+P 2 1 1 0 400 -200 400 -300 N
+X INB+ 5 100 -200 100 R 40 0 2 1 I 
+X INB- 6 100 0 100 R 40 0 2 1 I 
+X OUTB 7 700 -100 100 L 40 0 2 1 C 
+X GND 4 400 -400 100 U 40 0 2 1 W 
+X VCC 8 400 200 100 D 40 0 2 1 W 
+P 2 2 1 0 200 100 600 -100 N
+P 2 2 1 0 200 -300 600 -100 N
+P 2 2 1 0 200 100 200 -300 N
+P 2 2 1 0 240 0 300 0 N
+P 2 2 1 0 240 -200 300 -200 N
+P 2 2 1 0 270 -170 270 -230 N
+P 2 2 1 0 400 100 400 0 N
+P 2 2 1 0 400 -200 400 -300 N
+ENDDRAW
+ENDDEF
+#
+# End Library
