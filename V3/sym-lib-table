@@ -7,4 +7,5 @@
   (lib (name "XTSD04GLGEAG")(type "KiCad")(uri "${KIPRJMOD}/Local Library/XTSD04GLGEAG.kicad_sym")(options "")(descr ""))
   (lib (name "ADR5040ARTZ-REEL7")(type "KiCad")(uri "${KIPRJMOD}/Local Library/ADR5040ARTZ-REEL7.kicad_sym")(options "")(descr ""))
   (lib (name "SMT-1127-S-R")(type "KiCad")(uri "${KIPRJMOD}/Local Library/SMT-1127-S-R.kicad_sym")(options "")(descr ""))
+  (lib (name "BMX055")(type "KiCad")(uri "${KIPRJMOD}/Local Library/BMX055.kicad_sym")(options "")(descr ""))
 )
