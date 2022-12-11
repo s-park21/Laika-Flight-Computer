@@ -917,7 +917,6 @@
     )
   )
 
-
   (junction (at 116.205 37.465) (diameter 0) (color 0 0 0 0)
     (uuid 1ff09713-2895-40c5-9cad-83edaea04c05)
   )
@@ -1401,6 +1400,10 @@
   (text "ADXL375" (at 182.118 22.225 0)
     (effects (font (size 3.9878 3.9878)) (justify left bottom))
     (uuid 71041a63-b692-483a-9e43-c7464fc7bb62)
+  )
+  (text "CHANGE INTERFACES TO SPI INSTEAD OF I2C" (at 234.188 47.498 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid 93fd2b4d-a387-4c6f-b717-74be2a3d3438)
   )
   (text "GPS - L80 M39  " (at 71.755 22.225 0)
     (effects (font (size 3.9878 3.9878)) (justify left bottom))
